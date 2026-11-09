@@ -2,7 +2,7 @@
 
 Trabajo Final de Diseño UX-UI 2026 (UADER FCyT).
 
-- **Sitio:** https://elianaduarte11.github.io/Portafolio/
+- **Sitio publicado:** https://ellianaduarte11.github.io/Portafolio/
 - **Figma:** [PEGÁ ACÁ EL LINK DE TU FIGMA]
 - **Repositorio:** https://github.com/EllianaDuarte11/Portafolio
 
