@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eliana Duarte — Diseño UX/UI y desarrollo front-end</title>
+<meta name="description" content="Portfolio de Eliana, estudiante de Sistemas. Proyectos de diseño UX/UI en Figma y maquetación con HTML y CSS.">
+<meta name="theme-color" content="#FFF8F0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Eliana Duarte — Portfolio UX/UI">
+<meta property="og:description" content="Diseño interfaces claras y las llevo a código. Mirá mis proyectos.">
+<!-- COMPLETAR: después del deploy, cambiá por la URL completa, ej: https://TU-USUARIO.github.io/portfolio/images/og-image.webp -->
+<meta property="og:image" content="images/og-image.webp">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23B4492D'/%3E%3Ctext x='16' y='21' font-size='14' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3EED%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Saltar al contenido</a>
+
+<header class="site-header">
+  <div class="container bar">
+    <a class="logo" href="#inicio" aria-label="Eliana Duarte, ir al inicio">ED</a>
+    <nav aria-label="Principal">
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
+      <ul id="menu" class="nav-list">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="https://github.com/EllianaDuarte11" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a class="btn btn-primary" href="#contacto">Contactame</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section id="inicio" class="section">
+    <div class="container hero">
+      <div class="hero-text">
+        <span class="tag">Disponible para trabajo remoto y pasantías</span>
+        <h1>Eliana Duarte</h1>
+        <p class="role">Diseño UX/UI y desarrollo front-end</p>
+        <p class="lead">Diseño interfaces claras en Figma y las llevo a código con HTML y CSS, para que se entiendan a la primera.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#proyectos">Ver trabajos</a>
+          <a class="btn btn-outline" href="#contacto">Contactame</a>
+        </div>
+        <p class="meta">Argentina-Entre Ríos-Concepción del Uruguay</p>
+      </div>
+      <!-- COMPLETAR: reemplazá images/retrato.webp por tu foto (mismo nombre) y ajustá el alt -->
+      <img src="images/retrato.webp" width="600" height="600" alt="Retrato de Eliana">
+    </div>
+  </section>
+
+  <section id="metricas" class="section tight" aria-labelledby="t-met">
+    <div class="container">
+      <h2 id="t-met" class="sr-only">Mi recorrido en números</h2>
+      <ul class="metrics">
+        <li class="metric"><strong>3</strong><span>Proyectos de diseño y código</span></li>
+        <li class="metric"><strong>19</strong><span>Ejercicios de HTML y CSS resueltos</span></li>
+        <li class="metric"><strong>3</strong><span>Herramientas de todos los días: Figma, Git y VS Code</span></li>
+        <!-- COMPLETAR: cambiá X por tus años de carrera -->
+        <li class="metric"><strong>X</strong><span>Años de carrera en Sistemas de Información</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="proyectos" class="section" aria-labelledby="t-proy">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="t-proy">Proyectos</h2>
+        <p>Trabajos de la materia, contados como casos de estudio: qué problema tenía, cómo lo resolví y qué aprendí.</p>
+      </div>
+      <div class="grid grid-3">
+        <article class="card">
+          <img src="images/coffea.webp" width="800" height="450" loading="lazy" alt="Página de inicio de Coffea, una cafetería, con una taza de café y granos">
+          <p class="year">2026</p>
+          <h3>Coffea</h3>
+          <p>Landing page para una cafetería, diseñada en Figma y maquetada con HTML5 y CSS3, sin JavaScript.</p>
+          <p class="learn">Aprendizaje: pasar de un diseño en Figma a una maqueta fiel y responsive, trabajando por fases.</p>
+          <ul class="tags"><li class="tag">Figma</li><li class="tag">HTML y CSS</li><li class="tag">Responsive</li></ul>
+          <a class="card-link" href="casos/coffea.html">Ver caso de estudio →</a>
+        </article>
+        <article class="card">
+          <img src="images/openart.webp" width="800" height="450" loading="lazy" alt="Pantalla del prototipo de OpenArt, una app de compra de arte digital">
+          <p class="year">2026</p>
+          <h3>OpenArt</h3>
+          <p>Diseño de tres flujos de tareas para una app de compra de arte digital y prototipo en Figma para testear con usuarios.</p>
+          <!-- COMPLETAR: reemplazá [completar] por lo que aprendiste -->
+          <p class="learn">Aprendizaje: pensar los flujos de una compra, incluyendo qué pasa cuando algo falla.</p>
+          <ul class="tags"><li class="tag">Figma</li><li class="tag">Flujos de tareas</li><li class="tag">Prototipo</li></ul>
+          <button class="card-link" type="button" data-dialog="dlg-openart">Ver caso de estudio →</button>
+        </article>
+        <article class="card">
+          <img src="images/ejercicios.webp" width="800" height="450" loading="lazy" alt="Landing integradora del Ejercicio 20, hecha con HTML y CSS">
+          <p class="year">2026</p>
+          <h3>Ejercicios de HTML y CSS</h3>
+          <p>19 ejercicios que van de una estructura básica a una landing integradora, con Flexbox, Grid y variables CSS.</p>
+          <p class="learn">Aprendizaje: maquetar con HTML y CSS puro, sin frameworks.</p>
+          <ul class="tags"><li class="tag">HTML5</li><li class="tag">CSS3</li><li class="tag">Flexbox</li></ul>
+          <button class="card-link" type="button" data-dialog="dlg-ejercicios">Ver caso de estudio →</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section" aria-labelledby="t-skills">
+    <div class="container">
+      <div class="section-head"><h2 id="t-skills">Skills</h2></div>
+      <div class="grid">
+        <article class="card">
+          <h3>Diseño UX</h3>
+          <p>Armo flujos de tareas, wireframes y prototipos, y los pruebo con personas para mejorarlos.</p>
+          <ul class="tags"><li class="tag">Figma</li><li class="tag">Wireframes</li><li class="tag">Test de usabilidad</li></ul>
+        </article>
+        <article class="card">
+          <h3>Diseño UI</h3>
+          <p>Defino paleta, tipografía y componentes para que todo se vea consistente.</p>
+          <ul class="tags"><li class="tag">Figma</li><li class="tag">Design system</li><li class="tag">Prototipado</li></ul>
+        </article>
+        <article class="card">
+          <h3>Front-end</h3>
+          <p>Convierto los diseños en páginas responsive y accesibles.</p>
+          <ul class="tags"><li class="tag">HTML5</li><li class="tag">CSS3</li><li class="tag">Flexbox</li><li class="tag">Grid</li></ul>
+        </article>
+        <article class="card">
+          <h3>Herramientas</h3>
+          <p>Versiono mi código y publico mis sitios.</p>
+          <ul class="tags"><li class="tag">Git</li><li class="tag">GitHub</li><li class="tag">VS Code</li><li class="tag">GitHub Pages</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="experiencia" class="section" aria-labelledby="t-exp">
+    <div class="container">
+      <div class="section-head"><h2 id="t-exp">Experiencia y formación</h2></div>
+      <ol class="timeline">
+        <li>
+          <p class="period">2026</p>
+          <h3>Diseño UX-UI</h3>
+          <p class="place">UADER FCyT</p>
+          <ul>
+            <li>Diseñé y maqueté la landing Coffea a partir de un PRD, desde Figma hasta código.</li>
+            <li>Resolví 19 ejercicios de HTML y CSS, hasta una landing responsive integradora.</li>
+          </ul>
+        </li>
+        <li>
+          <!-- COMPLETAR: poné tu año de inicio -->
+          <p class="period">2025 — Actualidad
+          </p>
+          <h3>Licenciatura en Sistemas de Información</h3>
+          <p class="place">UADER FCyT · Concepción del Uruguay</p>
+          <ul>
+            <li>Curso materias de programación orientada a objetos, ingeniería de software y algoritmos.</li>
+            <li>Modelo sistemas con UML y aplico metodologías ágiles en trabajos prácticos.</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+    <section id="sobre-mi" class="section" aria-labelledby="t-sobre">
+    <div class="container">
+      <h2 id="t-sobre">Sobre mí</h2>
+      <div class="about">
+        <img src="images/retrato.webp" width="600" height="600" loading="lazy" alt="Retrato de Eliana">
+        <div class="about-text">
+          <p>Soy Eliana, estudiante de la Licenciatura en Sistemas de Información. Me gusta que las cosas se entiendan rápido: diseñar una pantalla clara y después verla funcionando en el navegador. Estoy empezando mi camino en UX/UI y front-end, y busco mis primeras experiencias, de preferencia en modalidad remota.</p>
+          <div class="principles">
+            <article class="card"><h3>Claridad primero</h3><p>Si algo no se entiende en pocos segundos, lo vuelvo a pensar.</p></article>
+            <article class="card"><h3>Probar antes de decidir</h3><p>Pongo mis prototipos frente a personas reales y ajusto con lo que veo.</p></article>
+            <article class="card"><h3>Cerca de las personas</h3><p>Diseño pensando en quien va a usar la página, no en quien la hace.</p></article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section" aria-labelledby="t-contacto">
+    <div class="container">
+      <div class="contact">
+        <h2 id="t-contacto">¿Charlamos?</h2>
+        <p>Si tenés un proyecto, una pasantía o simplemente querés contarme una idea, escribime. Te respondo lo antes posible.</p>
+        <!-- COMPLETAR: tu email real y tu usuario de LinkedIn -->
+        <a class="btn btn-primary" href="mailto:eliabrilduarte2014@gmail.com">Escribime</a>
+        <ul class="contact-links">
+          <li><a href="mailto:eliabrilduarte2014@gmail.com">eliabrilduarte2014@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/eliana-duarte-b4230944a/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://github.com/EllianaDuarte11" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p>© 2026 Eliana Duarte</p>
+      <p class="small">Diseñado en Figma. Hecho con HTML5 y CSS3. Publicado con GitHub Pages.</p>
+    </div>
+    <nav aria-label="Pie de página">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="https://github.com/EllianaDuarte11" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/tu-usuario/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+<dialog id="dlg-openart" aria-labelledby="t-dlg-oa">
+  <h3 id="t-dlg-oa">OpenArt</h3>
+  <div class="case">
+    <h4>Problema</h4>
+    <p>El brief OpenArt pedía diseñar la experiencia de compra online de arte digital.</p>
+    <h4>Proceso</h4>
+    <p>Definimos tres flujos de tareas: elegir una obra, pagar (con casos de error) y conocer al artista y al propietario. Después armamos un prototipo en Figma para testear con usuarios. Trabajé en un equipo de 5 personas. Mi rol: diseñé el flujo de pago y armé las pantallas en Figma.</p>
+    <h4>Resultado</h4>
+    <p>Entregamos tres flujos de tareas y un prototipo en Figma listo para testear con usuarios. Aprendí a pensar el recorrido completo de una compra, incluyendo los casos de error.</p>
+    <ul>
+      <li><a href="https://www.figma.com/make/vpbS2PVNuVWYT7tRTLfR6q/Crossword-puzzle-generator?p=f&t=WyPE7iJ8h2kIqfOJ-0" target="_blank" rel="noopener noreferrer">Ver prototipo en Figma</a></li>
+    </ul>
+  </div>
+  <button class="btn btn-outline dialog-close" type="button">Cerrar</button>
+</dialog>
+
+<dialog id="dlg-ejercicios" aria-labelledby="t-dlg-ej">
+  <h3 id="t-dlg-ej">Ejercicios de HTML y CSS</h3>
+  <div class="case">
+    <h4>Problema</h4>
+    <p>Aprender a maquetar con HTML y CSS puro, sin frameworks.</p>
+    <h4>Proceso</h4>
+    <p>Resolví 19 ejercicios progresivos, desde una estructura básica hasta layouts con Flexbox, Grid, variables CSS, animaciones y un menú hamburguesa solo con CSS.</p>
+    <h4>Solución y resultado</h4>
+    <p>Una landing integradora, publicada en GitHub Pages. Aprendí a decidir el layout de cada sección y a hacerlo responsive.</p>
+    <ul>
+      <li><a href="https://ellianaduarte11.github.io/TP-html-css/Ejercicio_20/" target="_blank" rel="noopener noreferrer">Ver demo</a></li>
+      <li><a href="https://github.com/EllianaDuarte11/TP-html-css" target="_blank" rel="noopener noreferrer">Ver repositorio</a></li>
+    </ul>
+  </div>
+  <button class="btn btn-outline dialog-close" type="button">Cerrar</button>
+</dialog>
+
+<script src="js/main.js"></script>
+</body>
+</html>
