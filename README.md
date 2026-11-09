@@ -28,5 +28,3 @@ Declaro que usé IA en este trabajo:
 - **IA de Figma:** generó la base de la página de design system (estilos de texto y componentes).
 - **Cómo lo revisé y adapté:** [COMPLETAR con tus palabras: qué cambiaste, qué corregiste y qué decidiste vos].
 
-## Capturas
-[COMPLETAR: capturas del sitio en desktop y mobile, y del reporte Lighthouse]
