@@ -23,8 +23,8 @@ Concepto: **cálido, claro, cercano**. Paleta y escala tipográfica definidas co
 - No se usaron templates.
 
 ## Uso de IA
-Declaro que usé IA en este trabajo:
-- **Claude (Anthropic):** me ayudó con la estructura del sitio, la propuesta de paleta y escala tipográfica, el borrador de los textos, el HTML y CSS base y el análisis de benchmark.
-- **IA de Figma:** generó la base de la página de design system (estilos de texto y componentes).
-- **Cómo lo revisé y adapté:** [COMPLETAR con tus palabras: qué cambiaste, qué corregiste y qué decidiste vos].
+Se utilizó asistencia de IA para proponer contenido, documentación y generar una base de HTML, CSS y JavaScript. El contenido y el funcionamiento del sitio fueron revisados y se aplicaron correcciones a partir de las pruebas de usabilidad.
+
+## Contacto
+Los botones «Enviar email» y «Correo electrónico» abren Gmail en el navegador; la dirección visible conserva su enlace mailto: conforme a la consigna. LinkedIn y GitHub están enlazados a los perfiles proporcionados.
 
