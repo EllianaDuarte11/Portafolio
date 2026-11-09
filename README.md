@@ -2,9 +2,9 @@
 
 Trabajo Final de Diseño UX-UI 2026 (UADER FCyT).
 
-- **Sitio:** [COMPLETAR: URL de GitHub Pages, ej. https://elianaduarte11.github.io/portfolio/]
-- **Figma:** [COMPLETAR: link con permiso de visualización]
-- **Repositorio:** https://github.com/EllianaDuarte11/portfolio
+- **Sitio:** https://elianaduarte11.github.io/Portafolio/
+- **Figma:** [PEGÁ ACÁ EL LINK DE TU FIGMA]
+- **Repositorio:** https://github.com/EllianaDuarte11/Portafolio
 
 ## Stack
 HTML5 semántico, CSS3 (variables, Flexbox y Grid, mobile-first) y JavaScript vanilla solo para el menú mobile y los modales. Tipografía Nunito (Google Fonts). Sin frameworks.
