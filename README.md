@@ -19,8 +19,8 @@ Concepto: **cálido, claro, cercano**. Paleta y escala tipográfica definidas co
 
 ## Fuentes y recursos
 - Fuente: Nunito (Google Fonts).
-- Imágenes: capturas propias de mis proyectos. [COMPLETAR: fuente de cualquier otra imagen]
-- No se usaron templates.
+- Imágenes: capturas propias de mis proyectos. 
+- Diseño basado en el trabajo de Figma creado para este proyecto. No se usaron templates externos.
 
 ## Uso de IA
 Se utilizó asistencia de IA para proponer contenido, documentación y generar una base de HTML, CSS y JavaScript. El contenido y el funcionamiento del sitio fueron revisados y se aplicaron correcciones a partir de las pruebas de usabilidad.
