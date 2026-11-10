@@ -28,3 +28,24 @@ Se utilizó asistencia de IA para proponer contenido, documentación y generar u
 ## Contacto
 Los botones «Enviar email» y «Correo electrónico» abren Gmail en el navegador; la dirección visible conserva su enlace mailto: conforme a la consigna. LinkedIn y GitHub están enlazados a los perfiles proporcionados.
 
+## Prueba de usabilidad
+Se realizó una evaluación de usabilidad del portfolio personal publicado en GitHub Pages, con el objetivo de comprobar que la navegación sea clara y que los usuarios puedan encontrar fácilmente la información principal.
+
+Tareas evaluadas
+1. Encontrar las tecnologías y herramientas utilizadas en el portfolio.
+2. Explorar el caso de estudio Coffea y regresar al portfolio.
+3. Localizar el correo electrónico de contacto.
+   
+Resultados
+Participantes: 3.
+Tareas completadas: 9 de 9 (100%).
+Los tres participantes lograron completar las tareas propuestas.
+
+Problemas detectados
+Un participante informó que un Link daba error.
+
+Correcciones realizadas
+Se identificó que el Link estaba mal escrito. Por lo que fue corregido y ahora lleva al sitio correcto.
+
+Conclusión
+La evaluación permitió analizar la organización y navegación del portfolio, comprobar la accesibilidad de la información principal e identificar posibles oportunidades de mejora en la experiencia de usuario.
