@@ -53,6 +53,6 @@ Un participante informó que un Link daba error.
 
 Se identificó que el Link estaba mal escrito. Por lo que fue corregido y ahora lleva al sitio correcto.
 
-Conclusión:
+**Conclusión:**
 
 La evaluación permitió analizar la organización y navegación del portfolio, comprobar la accesibilidad de la información principal e identificar posibles oportunidades de mejora en la experiencia de usuario.
