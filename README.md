@@ -3,7 +3,7 @@
 Trabajo Final de Diseño UX-UI 2026 (UADER FCyT).
 
 - **Sitio publicado:** https://ellianaduarte11.github.io/Portafolio/
-- **Figma:** [PEGÁ ACÁ EL LINK DE TU FIGMA]
+- **Figma:** https://www.figma.com/design/I7KftIhciNgmsD9optPc2S/Sin-t%C3%ADtulo?node-id=0-1&p=f&t=zHgZ3AriLGQbgOWE-0
 - **Repositorio:** https://github.com/EllianaDuarte11/Portafolio
 
 ## Stack
